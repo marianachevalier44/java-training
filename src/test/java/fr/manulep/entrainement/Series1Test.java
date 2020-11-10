@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Disabled;
+//import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -58,6 +58,7 @@ class Series1Test
 		int arrayIn[] = { 2, 3, 4, 5 };
 		int arrayExpected[] = { 1, 2, 3, 4, 5 };
 		assertArrayEquals(arrayExpected, Series1.addElementToBeginning(arrayIn, 1));
+		
 
 		int arrayIn2[] = {};
 		int arrayExpected2[] = { 1 };
